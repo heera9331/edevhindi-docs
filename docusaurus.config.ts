@@ -17,8 +17,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "heera9331", // Usually your GitHub org/user name.
+  projectName: "edevhindi-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -70,8 +70,11 @@ const config: Config = {
     navbar: {
       title: "Edevhindi",
       logo: {
+        width: "64px",
+        height: "64px",
+        className: "object-fit",
         alt: "Edevhindi Logo",
-        src: "img/logo.svg",
+        src: "https://edevhindi.com/wp-content/uploads/2024/05/e-dev-hindi.png",
       },
       items: [
         {
@@ -81,7 +84,7 @@ const config: Config = {
           label: "Tutorial",
         },
         { to: "/blogs", label: "Blogs", position: "left" },
-        { to: "/", label: "Home", position: "left" }, 
+        { to: "/", label: "Home", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
@@ -139,6 +142,27 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  stylesheets: [
+    {
+      href: "/css/tailwind.css",
+      type: "text/css",
+    },
+  ],
+
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
 };
 
 export default config;
