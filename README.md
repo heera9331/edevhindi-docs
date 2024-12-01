@@ -1,5 +1,7 @@
 # Edevhindi Docs
 
+This is not just a github repo, this is a source of hindi medium learner's.
+
 ### Installation
 
 ```
