@@ -13,8 +13,12 @@ import { Team } from "../components/home/team";
 import { Features } from "../components/home/features";
 import { About } from "../components/home/about";
 
-import styles from "./index.module.css";
 import "../css/tailwind.css";
+
+// todo change the heading sizes
+
+import "./globals.css";
+import styles from "./index.module.css";
 import "./single-post.css";
 
 function HomepageHeader() {
@@ -46,7 +50,7 @@ export default function Home(): JSX.Element {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <HomepageHeader />
+      {/* <HomepageHeader /> */}
       <main>
         <Hero />
         <Stats />

@@ -3,7 +3,7 @@ sidebar_position: 1
 title: "ReactJS - A JavaScript Library"
 author: Heera Singh Lodhi
 date: 30-11-2024
-slug: "reactjs-in-hind"
+slug: "reactjs-in-hindi"
 keyword: ["react in hindi", "react notes in hindi"]
 description: "जैसे कि DBMSएक सॉफ्टवेयर है जिससे बात करने के लिए एक language की जरूरत होती है बो है SQL जिससे हम अपने अनुरूप dbms software काम करा सके। SQL एक query language है जिसका उपयोग database से query (query/ask something from database) करने के लिए करते है। SQL में बहुत से commands होती जिनका specific उपयोग होता है।"
 ---
@@ -52,22 +52,22 @@ PS C:\Users\username>
 
 ## ReactJS Important Topics to Learn
 
-ReactJS – Intro to react
-ReacJS – folder structure
-ReactJS – components
-ReactJS – How ReactJS working
-ReactJS – components lifecycle
-ReactJS – Functional vs class-based components
-ReactJS – API Integration
-ReactJS – Best Practices
-ReactJS – API Forms
-ReactJS – Query
-ReactJS – API Query
-ReactJS – with typescript
-ReactJS – with tailwindcss
-ReactJS – vite project
-ReactJS – Context API
-ReactJS – State Management
+- ReactJS – Intro to react
+- ReacJS – folder structure
+- ReactJS – components
+- ReactJS – How ReactJS working
+- ReactJS – components lifecycle
+- ReactJS – Functional vs class-based components
+- ReactJS – API Integration
+- ReactJS – Best Practices
+- ReactJS – API Forms
+- ReactJS – Query
+- ReactJS – API Query
+- ReactJS – with typescript
+- ReactJS – with tailwindcss
+- ReactJS – vite project
+- ReactJS – Context API
+- ReactJS – State Management
 
 ## ReactJS Docs
 

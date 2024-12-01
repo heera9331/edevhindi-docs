@@ -13,13 +13,13 @@ author: Heera Singh Lodhi
 
 ## Table of Contents
 
-- [](./01-introduction-to-os)
-- [](./02-types%20of-os)
-- [](./03-system-calls-for-file-management)
-- [](./04-os-disk-scheduling-algorithms)
-- [](./05-case-studies-unix-linux)
-- [](./06-architecture-of-operating-system-in-hindi)
-- [](./07-memory-management-in-operating-system-in-hindi)
-- [](./08-directory-structure-and-file-protection%20copy)
-- [](./10-operating-system-utility-programs-and-system-calls)
-- [](./11-file-allocation-methods-in-os)
+- [Introduction to OS](/docs/operating-system/introduction-to-operating-system)
+- [Types of Operating System](/docs/operating-system/types-of-operating-system)
+- [System Calls](/docs/operating-system/system-calls-for-file-management)
+- [Disk Scheduling](/docs/operating-system/os-disk-scheduling-algorithms)
+- [Linux Case Study](/docs/operating-system/case-studies-unix-linux)
+- [Architecture of OS](/docs/operating-system/architecture-of-operating-system-in-hindi)
+- [Memory Management in OS](/docs/operating-system/memory-management-in-os)
+- [Directory structure and file protection](/docs/operating-system/directory-structure-and-file-protection)
+- [Utility programs and system calls](/docs/operating-system/system-calls-for-file-management)
+- [File Allocation](/docs/operating-system/file-allocation-methods-in-os)

@@ -4,6 +4,59 @@
 @desc
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  word-spacing: 6px;
+}
+
+h1 {
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  font-weight: 700; /* Bold */
+
+  line-height: 2.5rem;
+}
+
+h2 {
+  font-size: 1.875rem; /* Equivalent to text-3xl */
+  font-weight: 600; /* Semi-bold */
+
+  line-height: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem; /* Equivalent to text-2xl */
+  font-weight: 500; /* Medium */
+
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1.25rem; /* Equivalent to text-xl */
+  font-weight: 500; /* Medium */
+
+  line-height: 1.75rem;
+}
+
+h5 {
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  font-weight: 400; /* Normal */
+
+  line-height: 1.75rem;
+}
+
+h6 {
+  font-size: 1rem; /* Equivalent to text-base */
+  font-weight: 300; /* Light */
+
+  line-height: 1.5rem;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -32,7 +85,16 @@ th {
   width: 100%;
 }
 
-
 img {
   border-radius: 12px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.theme-edit-this-page {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }

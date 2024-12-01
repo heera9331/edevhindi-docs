@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Edevhindi",
   tagline: "Bharat",
-  favicon: "img/favicon.ico",
+  favicon: "https://edevhindi.com/wp-content/uploads/2024/05/e-dev-hindi.png",
 
   // Set the production url of your site here
   url: "https://edevhindi.com",
@@ -66,24 +66,18 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "https://edevhindi.com/wp-content/uploads/2024/05/e-dev-hindi.png",
     navbar: {
       title: "Edevhindi",
       logo: {
         width: "64px",
         height: "64px",
-        className: "object-fit",
+        className: "object-fit w-[64px] h-[64px]",
         alt: "Edevhindi Logo",
         src: "https://edevhindi.com/wp-content/uploads/2024/05/e-dev-hindi.png",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
-        { to: "/blogs", label: "Blogs", position: "left" },
+        { to: "/docs/intro", label: "Blogs", position: "left" },
         { to: "/", label: "Home", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
@@ -102,6 +96,26 @@ const config: Config = {
               label: "Tutorial",
               to: "/docs/intro",
             },
+            {
+              label: "ReactJS",
+              to: "/docs/reactjs",
+            },
+            {
+              label: "OOPs",
+              to: "/docs/category/object-oriented-programming",
+            },
+            {
+              label: "DBMS",
+              to: "/docs/dbms",
+            },
+            {
+              label: "C Programming",
+              to: "#",
+            },
+            {
+              label: "Java Programming",
+              to: "#",
+            },
           ],
         },
         {
@@ -109,15 +123,40 @@ const config: Config = {
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              href: "https://github.com/heera9331/",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Linkedin",
+              href: "https://www.linkedin.com/in/heera9331/",
             },
             {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              label: "RPGV Notes",
+              href: "/rgpv-notes",
+            },
+          ],
+        },
+        {
+          title: "Important Pages",
+          items: [
+            {
+              label: "About us",
+              to: "/about-us",
+            },
+            {
+              label: "Contact us",
+              to: "/contact-us",
+            },
+            {
+              label: "Privacy Policy",
+              to: "/privacy-policy",
+            },
+            {
+              label: "Disclaimer",
+              to: "/disclaimer",
+            },
+            {
+              label: "Terms of service",
+              to: "#",
             },
           ],
         },
@@ -125,8 +164,8 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "Portfolio",
+              to: "#",
             },
             {
               label: "GitHub",

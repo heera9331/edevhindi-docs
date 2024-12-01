@@ -27,3 +27,50 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+.navbar__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer__link-item {
+  display: flex;
+  justify-content: start;
+  gap: 12px;
+  align-items: center;
+}
+
+ul,
+ol {
+  padding-left: 16px;
+}
+
+a {
+  color: rgb(5, 94, 228);
+}
+
+.footer__copyright {
+  border-top: 1px solid rgba(223, 223, 223, 0.311);
+  margin-top: 16px;
+  padding-top: 16px;
+}
+
+.navbar__logo img {
+  width: 36px;
+  height: 36px;
+}
+
+.navbar__inner {
+  padding: 0 6%;
+}
+
+@media (max-width: 550px) {
+  .navbar__inner {
+    padding: 0;
+  }
+  .navbar__logo img {
+    display: none !important;
+  }
+}

@@ -12,6 +12,8 @@ keywords:
   ]
 ---
 
+# File Allocation Methods in OS
+
 इस आर्टिकल में हम पढ़ेंगे फाइल allocation methods, कंप्यूटर में डाटा को फाइल, फोल्डर एवं सब-फोल्डर hierarchy में स्टोर किया जाता logically। किसी नई फाइल को डिस्क में स्टोर करना है तो ऑपरेटिंग सिस्टम फाइल allocation मेथड्स का उपयोग करते है।
 
 File allocation मेथड्स निम्न प्रकार की होती है –

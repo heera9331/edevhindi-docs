@@ -5,7 +5,7 @@ const team = [
   {
     name: 'Heera Singh Lodhi',
     role: 'Software Developer',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80',
+    image: 'https://media.licdn.com/dms/image/v2/D5603AQHzG7m5bGbuJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1691073978482?e=1738800000&v=beta&t=PomRoyVbHWOZ3yw2SVaQKFaSdY__udenj-u0gmxz-W4',
     bio: 'I am Heera Singh Lodhi, a passionate and dedicated software developer with a strong foundation in computer science and engineering.',
     social: {
       github: '#',
@@ -16,7 +16,7 @@ const team = [
   {
     name: 'Rahul Sen',
     role: 'Web Developer',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80',
+    image: 'https://media.licdn.com/dms/image/v2/D5635AQEx5e0Ffmg85w/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1729663348185?e=1733688000&v=beta&t=zjTV5Bqt-MGgoRYevnDChPzBd7eioCkEH4mLxi7v49Y',
     bio: 'I have a keen interest in programming and possess solid knowledge of object-oriented programming, HTML, CSS, JavaScript, WordPress and wix studio.',
     social: {
       github: '#',
@@ -40,29 +40,29 @@ const team = [
 export function Team() {
   return (
     <section className="py-16 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="mb-12 text-center">
+          <h2 className="mb-4 text-3xl font-bold text-gray-900">Meet Our Team</h2>
           <p className="text-lg text-gray-600">The passionate developers behind eDevHindi</p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {team.map((member, index) => (
-            <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-              <img src={member.image} alt={member.name} className="w-full h-64 object-cover" />
+            <div key={index} className="overflow-hidden transition-shadow bg-white shadow-md rounded-xl hover:shadow-lg">
+              <img src={member.image} alt={member.name} className="object-cover w-full h-64" />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
-                <div className="text-indigo-600 mb-4">{member.role}</div>
-                <p className="text-gray-600 mb-4">{member.bio}</p>
+                <h3 className="mb-2 text-xl font-semibold">{member.name}</h3>
+                <div className="mb-4 text-indigo-600">{member.role}</div>
+                <p className="mb-4 text-gray-600">{member.bio}</p>
                 <div className="flex space-x-4">
                   <a href={member.social.github} className="text-gray-600 hover:text-gray-900">
-                    <Github className="h-5 w-5" />
+                    <Github className="w-5 h-5" />
                   </a>
                   <a href={member.social.linkedin} className="text-gray-600 hover:text-gray-900">
-                    <Linkedin className="h-5 w-5" />
+                    <Linkedin className="w-5 h-5" />
                   </a>
                   <a href={member.social.email} className="text-gray-600 hover:text-gray-900">
-                    <Mail className="h-5 w-5" />
+                    <Mail className="w-5 h-5" />
                   </a>
                 </div>
               </div>
