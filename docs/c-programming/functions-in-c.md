@@ -1,3 +1,10 @@
+---
+title: Functions in C
+slug: functions-in-c
+author: Heera Singh Lodhi
+date: 06-12-2024
+---
+
 
 # Functions in C
 
